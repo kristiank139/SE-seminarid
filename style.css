@@ -19,7 +19,7 @@ body {
     box-shadow: 5px 5px 15px grey;
 }
 
-.tabeliPealkiri {
+.pealkiri {
     text-decoration: underline;
     color: darkblue !important;
 }
@@ -31,4 +31,17 @@ table {
 
 th {
     text-align: left !important;
+}
+
+.taust {
+    background-image: url("taust.jpg");
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    opacity: 0.2;
+    z-index: -1;
 }
