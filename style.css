@@ -18,3 +18,17 @@ body {
     border: 5px solid black;
     box-shadow: 5px 5px 15px grey;
 }
+
+.tabeliPealkiri {
+    text-decoration: underline;
+    color: darkblue !important;
+}
+
+table {
+    width: 25%;
+    margin-top: 20px;
+}
+
+th {
+    text-align: left !important;
+}
